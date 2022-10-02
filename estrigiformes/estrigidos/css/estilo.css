@@ -1,0 +1,144 @@
+body{
+	font-family: 'Calibri';
+	font-size: 6pt;
+	color: red;
+	background-image:url("../img/fondo1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	line-height: 15px;
+}
+.tit{
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+	text-decoration: underline;
+	text-decoration-color: #a411c9;
+	
+}
+.tit  img{
+	width: 100px;
+	height: 100px;
+	margin-right: 25px;
+}
+.cont img{
+	width: 100%;
+	height: 50%;
+}
+
+
+@media ( min-width:400px ){
+	body{
+				font-family: 'Cambria';
+				font-size: 8pt;
+				color: blue;
+				background-image:url("../img/fondo2.png");
+				background-repeat: no-repeat;
+				background-size: 100%;
+				line-height: 20px;
+		}
+		.tit  img{
+			width: 150px;
+			height: 150px;
+			margin-right: 50px;
+		}
+	}
+	
+@media ( min-width:800px ){
+	body{
+				font-family: 'Comic Sans MS';
+				font-size: 10pt;
+				color: green;
+				background-image:url("../img/fondo3.png");
+				background-repeat: no-repeat;
+				background-size: 100%;
+				line-height: 25px;
+		}
+		.tit  img{
+			width: 150px;
+			height: 150px;
+			margin-right: 50px;
+		}
+		.cont img{
+			width: 675px;
+			height: 450px;
+			padding-bottom: 10px;
+			padding-right: 15px;
+		}
+		.det{
+			display: flex;
+		}
+		.det img{
+			float:left;
+			margin-right: 10px;
+		}
+		.det p{
+			margin-top: -10px;
+		}
+		
+	}
+						
+@media ( min-width:1200px ){
+	body{
+				font-family: 'Times New Roman';
+				font-size: 12pt;
+				color: yellow;
+				background-image:url("../img/1200px.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				line-height: 30px;
+		}
+		.tit  img{
+			width: 150px;
+			height: 150px;
+			margin-right: 50px;
+		}
+	}
+	
+@media ( min-width:1600px ){
+	body{
+				font-family: 'Courier New';
+				font-size: 16pt;
+				color: orange;
+				background-image:url("../img/fondo5.png");
+				background-repeat: no-repeat;
+				background-size: 100%;
+				line-height: 35px;
+		}
+		.tit  img{
+			width: 150px;
+			height: 150px;
+			margin-right: 50px;
+		}
+	}
+	footer{
+		margin-top: 100px;
+		width: 100%;
+		background-color: #0A141D
+	;
+		justify-content: center;
+	}.grupo1{
+		width: 100%;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		grid-gap:50px;
+		padding: 45px 0px;
+	}.box img{
+		margin-left: -20px;
+	}.box p{
+		color: white;
+		margin-top: 20px;
+		margin-left: -60px;
+		display: flex;
+	}.box a{
+		color: white;
+		text-decoration: none;
+	}.grupo2{
+		background-color: #0A1A2A
+	;
+		padding: 15px 10px;
+		text-align: center;
+		color: white;
+	}.grupo2 small{
+		font-size: 15px;
+	}
